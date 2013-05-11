@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C019754156D0AB5CE0F7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8EA420FB7986DE9BF6F /* Default.png */; };
+		17B5C22F9E9146F6F51401B5 /* RAIIBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC46235CC54FEB12AEE0 /* RAIIBenchmark.m */; };
+		17B5C347A5D2C012EBEC91B9 /* RAIIBenchmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD5DDD1EFCEBD0C27BF7 /* RAIIBenchmarkTests.m */; };
+		17B5C38928BAF7FD11A47449 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CE5E95529CEFECB3B8F6 /* SenTestingKit.framework */; };
+		17B5C392F763EA380CF52BCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1AD387A451C6E7DBCDD /* InfoPlist.strings */; };
+		17B5C41424CFA91ED1E30753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CCD2874E2A7B1CA9619A /* UIKit.framework */; };
+		17B5C4E27393DA3EE5684C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CC9C3676687C204EBA35 /* Foundation.framework */; };
+		17B5C591B848B1B58CAE3C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6CA8912D0C59FB585AF /* AppDelegate.m */; };
+		17B5C5E889BCE928F2EB1180 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CBE7FD7C821A96D6F5CB /* Default-568h@2x.png */; };
+		17B5C62886022A4772396623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C3CA6E96849A17045FCD /* InfoPlist.strings */; };
+		17B5C73824FDF0F7A7CEF62B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C26F2E749186E1758B66 /* main.m */; };
+		17B5C7BE57461FF51A957AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CC9C3676687C204EBA35 /* Foundation.framework */; };
+		17B5C91DFAEB938FF984281D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CE904A1A1ACD79B30D0A /* Default@2x.png */; };
+		17B5CD3E37B5450DD70844E9 /* RAIIBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC46235CC54FEB12AEE0 /* RAIIBenchmark.m */; };
+		17B5CE19051E8A0CC3BB86F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CCD2874E2A7B1CA9619A /* UIKit.framework */; };
+		17B5CECDF7238A914A13F0C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C26B117759C4E71CC66F /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C49F5547819BDDC342A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C99E3681D7B9B9CA057F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C1CB3FB78707C8D1F2FC;
+			remoteInfo = RAIIBenchmark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C1CB98610904DD6823E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C26B117759C4E71CC66F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5C26F2E749186E1758B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5C3D026E23A4B8C3C57CD /* RAIIBenchmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAIIBenchmark-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C42EBE24C811490F079A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C43470A415C32E9E6769 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C44A057CC3FE0EA8E189 /* RAIIBenchmark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RAIIBenchmark-Info.plist"; sourceTree = "<group>"; };
+		17B5C44F084312DC6CDA5C10 /* RAIIBenchmarkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAIIBenchmarkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C69CD5808FC3B846BC57 /* RAIIBenchmarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RAIIBenchmarkTests-Info.plist"; sourceTree = "<group>"; };
+		17B5C6CA8912D0C59FB585AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C6FB475F2C85F284C429 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C8AAE3C53A6433B17D69 /* RAIIBenchmarkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAIIBenchmarkTests.h; sourceTree = "<group>"; };
+		17B5C8EA420FB7986DE9BF6F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		17B5CB0FED6D244C10F58ACB /* RAIIBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAIIBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CBE7FD7C821A96D6F5CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17B5CC46235CC54FEB12AEE0 /* RAIIBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAIIBenchmark.m; sourceTree = "<group>"; };
+		17B5CC9C3676687C204EBA35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CCD2874E2A7B1CA9619A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5CD5DDD1EFCEBD0C27BF7 /* RAIIBenchmarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAIIBenchmarkTests.m; sourceTree = "<group>"; };
+		17B5CE5E95529CEFECB3B8F6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		17B5CE7BBDEE8664167F23B7 /* RAIIBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAIIBenchmark.h; sourceTree = "<group>"; };
+		17B5CE904A1A1ACD79B30D0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C36B973AC68FD50E9A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C38928BAF7FD11A47449 /* SenTestingKit.framework in Frameworks */,
+				17B5C41424CFA91ED1E30753 /* UIKit.framework in Frameworks */,
+				17B5C7BE57461FF51A957AD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C985297EAB88A247D0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CE19051E8A0CC3BB86F5 /* UIKit.framework in Frameworks */,
+				17B5C4E27393DA3EE5684C5F /* Foundation.framework in Frameworks */,
+				17B5CECDF7238A914A13F0C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C098BE45BEEF6C8C8DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C44A057CC3FE0EA8E189 /* RAIIBenchmark-Info.plist */,
+				17B5C3CA6E96849A17045FCD /* InfoPlist.strings */,
+				17B5C26F2E749186E1758B66 /* main.m */,
+				17B5C3D026E23A4B8C3C57CD /* RAIIBenchmark-Prefix.pch */,
+				17B5C8EA420FB7986DE9BF6F /* Default.png */,
+				17B5CE904A1A1ACD79B30D0A /* Default@2x.png */,
+				17B5CBE7FD7C821A96D6F5CB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C39971ABB0E73916E792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB0FED6D244C10F58ACB /* RAIIBenchmark.app */,
+				17B5C44F084312DC6CDA5C10 /* RAIIBenchmarkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5C5297057321ADBF9632E /* RAIIBenchmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C59AC97E58E0DD65E4EC /* Supporting Files */,
+				17B5C8AAE3C53A6433B17D69 /* RAIIBenchmarkTests.h */,
+				17B5CD5DDD1EFCEBD0C27BF7 /* RAIIBenchmarkTests.m */,
+			);
+			path = RAIIBenchmarkTests;
+			sourceTree = "<group>";
+		};
+		17B5C59AC97E58E0DD65E4EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C69CD5808FC3B846BC57 /* RAIIBenchmarkTests-Info.plist */,
+				17B5C1AD387A451C6E7DBCDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C5DC4513497551FE183D /* RAIIBenchmark */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C098BE45BEEF6C8C8DFD /* Supporting Files */,
+				17B5C1CB98610904DD6823E8 /* AppDelegate.h */,
+				17B5C6CA8912D0C59FB585AF /* AppDelegate.m */,
+			);
+			path = RAIIBenchmark;
+			sourceTree = "<group>";
+		};
+		17B5C613708648B31E42EF6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CCD2874E2A7B1CA9619A /* UIKit.framework */,
+				17B5CC9C3676687C204EBA35 /* Foundation.framework */,
+				17B5C26B117759C4E71CC66F /* CoreGraphics.framework */,
+				17B5CE5E95529CEFECB3B8F6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5C772F0EB6B0E3B694555 = {
+			isa = PBXGroup;
+			children = (
+				17B5C39971ABB0E73916E792 /* Products */,
+				17B5C613708648B31E42EF6B /* Frameworks */,
+				17B5C5DC4513497551FE183D /* RAIIBenchmark */,
+				17B5C5297057321ADBF9632E /* RAIIBenchmarkTests */,
+				17B5CA15151288556C134782 /* Lib */,
+				17B5C43470A415C32E9E6769 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5CA15151288556C134782 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CC46235CC54FEB12AEE0 /* RAIIBenchmark.m */,
+				17B5CE7BBDEE8664167F23B7 /* RAIIBenchmark.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C1CB3FB78707C8D1F2FC /* RAIIBenchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C00A89CFE65DCBA6C540 /* Build configuration list for PBXNativeTarget "RAIIBenchmark" */;
+			buildPhases = (
+				17B5C48916E7F9B652FA9DFC /* Sources */,
+				17B5C985297EAB88A247D0B1 /* Frameworks */,
+				17B5CF8370A5063F2D7446E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAIIBenchmark;
+			productName = RAIIBenchmark;
+			productReference = 17B5CB0FED6D244C10F58ACB /* RAIIBenchmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5C394F07A0B898EFF8F18 /* RAIIBenchmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C78B3686EE5C46E53F18 /* Build configuration list for PBXNativeTarget "RAIIBenchmarkTests" */;
+			buildPhases = (
+				17B5CEDE775D17679EE41AAE /* Sources */,
+				17B5C36B973AC68FD50E9A52 /* Frameworks */,
+				17B5C57A1E82FD2AC3962F87 /* Resources */,
+				17B5CA387A22DF031FC40414 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5CB0EA357FE86656DB1A8 /* PBXTargetDependency */,
+			);
+			name = RAIIBenchmarkTests;
+			productName = RAIIBenchmarkTests;
+			productReference = 17B5C44F084312DC6CDA5C10 /* RAIIBenchmarkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C99E3681D7B9B9CA057F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C51426D50874FD457662 /* Build configuration list for PBXProject "RAIIBenchmark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C772F0EB6B0E3B694555;
+			productRefGroup = 17B5C39971ABB0E73916E792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C1CB3FB78707C8D1F2FC /* RAIIBenchmark */,
+				17B5C394F07A0B898EFF8F18 /* RAIIBenchmarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C57A1E82FD2AC3962F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C392F763EA380CF52BCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CF8370A5063F2D7446E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C62886022A4772396623 /* InfoPlist.strings in Resources */,
+				17B5C019754156D0AB5CE0F7 /* Default.png in Resources */,
+				17B5C91DFAEB938FF984281D /* Default@2x.png in Resources */,
+				17B5C5E889BCE928F2EB1180 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B5CA387A22DF031FC40414 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C48916E7F9B652FA9DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C73824FDF0F7A7CEF62B /* main.m in Sources */,
+				17B5C591B848B1B58CAE3C26 /* AppDelegate.m in Sources */,
+				17B5C22F9E9146F6F51401B5 /* RAIIBenchmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CEDE775D17679EE41AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C347A5D2C012EBEC91B9 /* RAIIBenchmarkTests.m in Sources */,
+				17B5CD3E37B5450DD70844E9 /* RAIIBenchmark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5CB0EA357FE86656DB1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C1CB3FB78707C8D1F2FC /* RAIIBenchmark */;
+			targetProxy = 17B5C49F5547819BDDC342A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C1AD387A451C6E7DBCDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C6FB475F2C85F284C429 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C3CA6E96849A17045FCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C42EBE24C811490F079A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C132D1BCBB51B7F90179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RAIIBenchmark.app/RAIIBenchmark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAIIBenchmark/RAIIBenchmark-Prefix.pch";
+				INFOPLIST_FILE = "RAIIBenchmarkTests/RAIIBenchmarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		17B5C19DBE37418203C159A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5C2D5172AA3F1AB31F4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C7D99D090E0BB03E17CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RAIIBenchmark.app/RAIIBenchmark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAIIBenchmark/RAIIBenchmark-Prefix.pch";
+				INFOPLIST_FILE = "RAIIBenchmarkTests/RAIIBenchmarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		17B5C867BBC83FF62C1D0909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAIIBenchmark/RAIIBenchmark-Prefix.pch";
+				INFOPLIST_FILE = "RAIIBenchmark/RAIIBenchmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5C9E27D32B5E8A2FDA3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAIIBenchmark/RAIIBenchmark-Prefix.pch";
+				INFOPLIST_FILE = "RAIIBenchmark/RAIIBenchmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C00A89CFE65DCBA6C540 /* Build configuration list for PBXNativeTarget "RAIIBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C867BBC83FF62C1D0909 /* Release */,
+				17B5C9E27D32B5E8A2FDA3A5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5C51426D50874FD457662 /* Build configuration list for PBXProject "RAIIBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C2D5172AA3F1AB31F4AC /* Release */,
+				17B5C19DBE37418203C159A3 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C78B3686EE5C46E53F18 /* Build configuration list for PBXNativeTarget "RAIIBenchmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C7D99D090E0BB03E17CF /* Release */,
+				17B5C132D1BCBB51B7F90179 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C99E3681D7B9B9CA057F /* Project object */;
+}
