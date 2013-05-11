@@ -37,6 +37,13 @@
         dateFormatter.calendar = [NSCalendar currentCalendar];
         [dateFormatter stringFromDate:[NSDate date]];
     })
+
+    // not require __block
+    NSMutableArray *array = [NSMutableArray array];
+    beginBenchLoop(@"mutable case", 1000, {
+        [array addObject:@"test"];
+    })
+
 }
 
 @end

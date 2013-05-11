@@ -21,6 +21,13 @@ Simple Benchmark (don't use blocks)
     })
     // => loop case | Total :0.544s | Average: 0.001s
 
+    // not require __block
+    NSMutableArray *array = [NSMutableArray array];
+    beginBenchLoop(@"mutable case", 1000, {
+        [array addObject:@"test"];
+    })
+
+
 ## Contributing
 
 1. Fork it!
