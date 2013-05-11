@@ -4,7 +4,7 @@ Simple Benchmark (don't use blocks)
 
 ## Usage
 
-> #import "RAIIBenchmark.h"
+    #import "RAIIBenchmark.h"
 
     beginBench(@"single test", {
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
